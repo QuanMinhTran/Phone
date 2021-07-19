@@ -20,6 +20,7 @@ import utils.DBContext;
  */
 public class RoomDAO implements Serializable {
 
+    private String a;
     private Connection conn;
     private PreparedStatement preStm;
     private ResultSet rs;
