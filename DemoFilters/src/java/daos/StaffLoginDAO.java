@@ -18,6 +18,7 @@ import utils.DBContext;
  * @author Admin
  */
 public class StaffLoginDAO implements Serializable{
+    private int check;
     private Connection conn;
     private PreparedStatement preStm;
     private ResultSet rs;
